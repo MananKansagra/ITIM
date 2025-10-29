@@ -1,0 +1,6 @@
+services:
+  python-hello-world:
+    build: .
+    container_name: docker-compose-python
+    command: ["python3","hello.py"]
+
